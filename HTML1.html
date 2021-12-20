@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Welcome To Form </h1>
+        <form>
+            <h3>Personal Information</h3>
+            Name :&nbsp;&nbsp;<input type="text" placeholder="First Name" name="firstname"> &nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Last Name" name="lastname"><br>
+            <br>Phone Number : &nbsp; <input type="tel" placeholder="number" name="phoneno"><br>
+            <br>Email :&nbsp;<input type="email" placeholder="email" name="email"><br>
+            <br>
+            Address :
+            <input type="text" placeholder="Line-1" name="1">&nbsp;&nbsp;&nbsp;<br>
+            <br>Pincode : <input type="text" placeholder="pincode" name="pincode"><br>
+            <br>DOB :&nbsp; <input type="date" placeholder="date" name="date"><br>
+            <br>
+        </form>
+        <h3>Educational Information</h3>
+        <form>
+            Degree : <input list="subject" placeholder="Subject" name="Subject">
+            <datalist id="subject">
+                <option value="Under Grduation"></option>
+                <option value="Post Grduation"></option>
+                <option value="High School"></option>
+                <option value="Middle School"></option>
+            </datalist>
+            <br><br>
+            College Name: <input type="text" placeholder="college" name="college">
+            <br><br>
+            Start year : <input type="date" placeholder="College start" name="college start">&nbsp;&nbsp; End Date: <input type="date" placeholder="graduation date" name="end">
+            <br>Ongoing<input type="checkbox"  name="ongoing">&nbsp; Completed<input type="checkbox" name="completed">
+
+        </form>
+        <h3>Other Information</h3>
+        <form>
+            Fav Color: <input type="color" name="color">
+            <br><br>
+            Intrests: <input type="text" name="hobbies">
+        </form>
+        <form>
+            <br><br>
+            <input type="submit" placeholder="Submit" name="submit">
+            &nbsp;&nbsp;<input type="reset" placeholder="Reset" name="Reset">
+        </form>
+    </body>
+</html>
